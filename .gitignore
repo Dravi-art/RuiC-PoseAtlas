@@ -1,0 +1,21 @@
+# git 自身目录（本来就不会被跟踪，写上保险）
+.git/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# 日志与临时文件
+*.log
+*.part
+*.tmp
+
+# 构建输入
+_source/
+
+# 大图原图 —— 不提交，图片托管在 Cloudflare Pages
+img/
+costume/img/
+portrait/img/
